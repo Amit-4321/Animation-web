@@ -1,0 +1,33 @@
+.tilt-card {
+    width: 260px;
+    height: 180px;
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* inner content */
+  .inner {
+    transform: translateZ(40px); /* depth */
+  }
+  
+  .tilt-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .tilt-card p {
+    font-size: 0.9rem;
+    color: #94a3b8;
+  }
+  
+  /* hover glow */
+  .tilt-card:hover {
+    box-shadow: 0 20px 40px rgba(56, 189, 248, 0.3);
+  }
